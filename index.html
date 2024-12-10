@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cynthia Yang's Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> <!-- Google Font -->
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+        }
+
+        /* Header */
+        header {
+            background-color: #a47b7b; /* Medium Brown */
+            color: #f6dfdf;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header .logo {
+            font-family: 'Times New Roman', Times, serif; /* Times New Roman Font */
+            font-size: 50px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #f6dfdf;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sections */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #about {
+            background-color: #f6dfdf; /* Light Brown */
+        }
+
+        #about h1 {
+            font-family: 'Dancing Script', cursive; /* Cursive Font */
+            font-size: 50px; /* Larger Font Size */
+            color: #333; /* Black Text */
+            margin-bottom: 20px;
+        }
+
+        #portfolio {
+            background-color: #a47b7b; /* Medium Brown */
+        }
+
+        #hobbies {
+            background-color: #f6dfdf; /* Light Brown */
+        }
+
+        #contact {
+            background-color: #a47b7b; /* Medium Brown */
+        }
+
+        section h1, section h2 {
+            color: #333; /* Black Heading */
+        }
+
+        section p {
+            color: #555; /* Dark Gray Paragraph Text */
+        }
+
+        /* Table */
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-size: 16px;
+        }
+
+        table th, table td {
+            border: 1px solid #8c7051;
+            padding: 12px;
+            text-align: center;
+        }
+
+        table th {
+            background-color: #f6dfdf; /* Light Brown */
+            color: #000; /* Black Text */
+        }
+
+        table td {
+            background-color: #fff; /* White */
+        }
+
+        /* Footer */
+        footer {
+            background-color: #f6dfdf; /* Light Brown */
+            color: #000;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Links */
+        a {
+            color: #f6dfdf; /* Brown Link Color */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Image */
+        img {
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Cynthia Yang</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>Welcome to My Personal Website</h1>
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; text-align: left;">
+            <div style="flex: 1; padding-right: 10px;">
+                <p>
+                    Hi! My name is Cynthia Yang.
+                    I’m studying Global Business & Digital Arts with a minor in Events Management at the University of Waterloo. 
+                    I specialize in digital marketing, social media strategy, and content creation. I am primarily drawn to the 
+                    fast-paced, ever-evolving world of social media, where creativity meets data-driven decision-making. I am a 
+                    curious and driven marketing enthusiast with a passion for social media trends, creative content creation, 
+                    and data analysis. I'm highly motivated about helping brands tell their stories in ways that captivate their 
+                    audience. Beyond the classroom, I am a part of a variety of clubs at University of Waterloo. I am a social 
+                    media director for the SMILE club, University of Waterloo’s women’s basketball student team manager that 
+                    specializes in graphic designs for social media content, and also part of the GBDA ambassador social media team. 
+                    Within my positions, I'm great at combining creativity with strategic thinking. Whether it’s crafting content, 
+                    analyzing data, or optimizing a campaign, I approach each challenge with enthusiasm and a focus on results.
+                </p>
+            </div>
+            <div style="flex: 1; text-align: center;">
+                <img src="IMG_1791.jpeg" alt="Cynthia Yang" style="width: 90%; border-radius: 50px;">
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <table>
+            <tr>
+                <th>Project</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>WARG Onboarding</td>
+                <td>Worked on SPI communication and UAV systems.</td>
+                <td><a href="#">View Project</a></td>
+            </tr>
+            <tr>
+                <td>Stock Prediction Project</td>
+                <td>Developed algorithms for predicting market trends.</td>
+                <td><a href="#">View Details</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <img src="edm.png" alt="EDM Festival" width="300">
+        <p>I enjoy EDM music, travel, and playing golf.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            <span style="color: #000;">Email:</span> 
+            <a href="mailto:c62yang@uwaterloo.ca">c62yang@uwaterloo.ca</a>
+        </p>
+        <p>
+            <span style="color: #000;">Check out my LinkedIn:</span> 
+            <a href="https://www.linkedin.com/in/cynthia-yang-" target="_blank" rel="noopener noreferrer">
+                Cynthia's LinkedIn Profile
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cynthia Yang. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
